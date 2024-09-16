@@ -12,12 +12,13 @@ The dataset consists of **107 images and their corresponding masks**, carefully 
 
 - **Generated Images**:  Created using Bria's generative platform during earlier experiments with object removal scenarios. You can generate similar images through Bria’s platform here.
 - **Bria Repository Images**: Proprietary images developed in-house at Bria, representing real-world use cases for object removal.
-- **Academic Images**: Sourced from the [LAMA project](https://github.com/advimman/lama/tree/main), a well-known academic dataset for image inpainting.
+- **Academic Images**: Sourced from academic projects such as the  [LAMA project](https://github.com/advimman/lama/tree/main) and [Inpaint Anything](https://github.com/geekyutao/Inpaint-Anything).
+
 
 
 ### Example of Image with Corresponding Mask from the Eraser Benchmark Dataset
 
-<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_img.png" alt="Example Image with Mask" width="700"/>
+<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_sample_im.png" alt="Example Image with Mask" width="700"/>
 
 ## Download the Dataset
 
