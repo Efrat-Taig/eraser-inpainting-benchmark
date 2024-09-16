@@ -14,8 +14,10 @@ The dataset consists of **107 images and their corresponding masks**, carefully 
 - **Bria Repository Images**: Proprietary images developed in-house at Bria, representing real-world use cases for object removal.
 - **Academic Images**: Sourced from the [LAMA project](https://github.com/advimman/lama/tree/main), a well-known academic dataset for image inpainting.
 
-![Example Image with Mask](https://github.com/your-repo/images/eraser_bencmark_img.png)
 
+### Example of Image with Corresponding Mask from the Eraser Benchmark Dataset
+
+<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_img.png" alt="Example Image with Mask" width="700"/>
 
 ## Download the Dataset
 
