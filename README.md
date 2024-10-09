@@ -11,7 +11,7 @@ The model is open for research (free) and available for purchase.
 The dataset consists of **107 images and their corresponding masks**, carefully curated to serve as a benchmark for object removal tasks. These images were sourced from three main areas:
 
 - **Generated Images**:  Created using Bria's generative platform during earlier experiments with object removal scenarios. You can generate similar images through Bria’s platform [here](https://platform.bria.ai/apps/text-to-image).
-- **Bria Repository Images**: Proprietary images developed in-house at Bria, representing real-world use cases for object removal.
+- **Bria Repository Images**: Proprietary images from Bria, representing real-world use cases for object removal.
 - **Academic Images**: Sourced from academic projects such as the  [LAMA project](https://github.com/advimman/lama/tree/main) and [Inpaint Anything](https://github.com/geekyutao/Inpaint-Anything).
 
 
