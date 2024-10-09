@@ -2,7 +2,7 @@
 
 Welcome to the **Eraser Inpainting Benchmark Dataset**! This dataset is specifically designed for evaluating inpainting models, particularly those focused on object removal. The Eraser model, developed by [Bria](https://bria.ai/), is based on diffusion techniques and was trained for this task using a carefully curated dataset that we are now making available for research and evaluation purposes.
 
-The model is open for research and available for purchase.
+The model is open for research (free) and available for purchase.
 
 
 
@@ -10,7 +10,7 @@ The model is open for research and available for purchase.
 ## Dataset Composition
 The dataset consists of **107 images and their corresponding masks**, carefully curated to serve as a benchmark for object removal tasks. These images were sourced from three main areas:
 
-- **Generated Images**:  Created using Bria's generative platform during earlier experiments with object removal scenarios. You can generate similar images through Bria’s platform here.
+- **Generated Images**:  Created using Bria's generative platform during earlier experiments with object removal scenarios. You can generate similar images through Bria’s platform [here](https://platform.bria.ai/apps/text-to-image).
 - **Bria Repository Images**: Proprietary images developed in-house at Bria, representing real-world use cases for object removal.
 - **Academic Images**: Sourced from academic projects such as the  [LAMA project](https://github.com/advimman/lama/tree/main) and [Inpaint Anything](https://github.com/geekyutao/Inpaint-Anything).
 
