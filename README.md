@@ -86,6 +86,8 @@ Bria’s inpainting model is open source for academia. Academics can download th
 
 For industry users, the model is source available with a platform fee. You can purchase access to the full platform, which includes the inpainting model, weights, and training code, by contacting Bria through this [link](https://bria.ai/contact-us/) or request access via [Hugging Face](https://huggingface.co/briaai).
 
+The images included in this benchmark are provided exclusively for research purposes. They are intended to support the development, evaluation, and analysis of algorithms within academic and non-commercial research contexts. Any commercial use of these images, including but not limited to reproduction, distribution, or incorporation into commercial products or services, is strictly prohibited. This restriction ensures that the dataset remains dedicated to advancing research and responsible innovation in the field.
+
 ## Contributions
 
 We welcome contributions and discussions from the community! Feel free to open issues or submit pull requests to improve this repository.
