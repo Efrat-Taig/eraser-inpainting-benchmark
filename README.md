@@ -28,16 +28,42 @@ The dataset is available for download from Google Drive. You can access it using
 
 [**Download Eraser Inpainting Benchmark Dataset**](https://drive.google.com/drive/folders/1f_t6yUSTz8lxf6eO2hjWAs7O-vEFWEPZ?usp=sharing)
 
+## About the Dataset
+The benchmark dataset is organized into a main directory called eraser_benchmark_folders. Inside this directory, each color image has its own subfolder named after the image. Each subfolder contains the color image itself along with all associated mask files. This structure ensures that each image and its corresponding masks are grouped together for easy access and processing.
+
+
+## About the results
+
+The benchmark results are stored in the eraser_benchmark_results folder, with each output saved as a single Demo Image. This demo image combines the original color image, the mask, and the processed result from the eraser API into a single, horizontally concatenated file. Each demo image is named after its corresponding mask file, followed by _demo, making it easy to identify and associate with the original data. This organized structure allows for quick visual comparison of the input and output, providing an intuitive way to validate the results.
+
+
+
+
+
+
+
 ## How to Use
 
 **Evaluate your model**:  
    Run your inpainting models on the images and compare results. We recommend trying [Bria’s inpainting models](https://huggingface.co/briaai) available on [Hugging Face](https://huggingface.co/briaai), particularly the **inpainting model**.
 
-**Evaluate Bria model**:  
-  TBD
+**Evaluate Bria eraser pipline on a single image (via code)**:  
 
-**Evaluate Bria pipline**:  
-  TBD
+To evaluate the Bria pipeline on a single image, use the provided Python script. Begin by specifying the paths to the color image and its corresponding mask. The script converts both files to Base64 format and sends them to the Bria eraser API. After processing, the API returns a URL containing the result image. The script then downloads the processed image and saves it to a specified output path, allowing for easy review. Ensure that the API token and URL are correctly set in the script to authenticate access. Upon successful execution, the processed image will be stored in the `data_res` folder under the specified filename, providing a straightforward way to test the Bria eraser functionality on an individual image and mask pair.
+
+**Evaluate Bria eraser pipline on a single image (via space in HF #1)**:  
+[demo on Hugging Face](https://huggingface.co/spaces/briaai/BRIA-Eraser-API)
+
+**Evaluate Bria eraser pipline on a single image (via Bria playground #1)**:  
+[demo on Bria playground](https://platform.bria.ai/apps/eraser)
+
+**Evaluate Bria eraser pipline on a single image (via ComfyUI #1)**:  
+[Via ComfyUI](https://github.com/Bria-AI/ComfyUI-BRIA-API)
+
+
+**Evaluate Bria eraser pipline on benchmark**:  
+
+To run the benchmark evaluation, ensure that the dataset is organized in the `benchmark_folders` directory, where each color image and its corresponding masks are stored in individual subfolders. Before starting, set the API endpoint and API token within the code, as these are required for accessing the eraser API. Once configured, run the `run_benchmark` function, which will process each image-mask pair in the dataset. The results will be saved in the `benchmark_res` folder, with each demo image showing the original color image, mask, and processed result side-by-side. This setup allows you to evaluate the effectiveness of the eraser model on the dataset and quickly review the output for each test case.
 
 ## Bria’s Inpainting Products
 
