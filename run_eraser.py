@@ -41,7 +41,7 @@ headers = {
 response = requests.post(url, json=payload, headers=headers)
 
 # Define the path to save the image
-save_path = "/home/ubuntu/spring/misc/efrat/eraser/data_res/output_image.png"
+save_path = "output_image.png"
 
 # Check if request was successful
 if response.status_code == 200:
