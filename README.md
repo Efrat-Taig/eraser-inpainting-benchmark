@@ -1,10 +1,11 @@
 # Eraser Inpainting Benchmark Dataset
 
-Welcome to the **Eraser Inpainting Benchmark Dataset**! This dataset is specifically designed for evaluating inpainting models, particularly those focused on object removal. The Eraser model, developed by [Bria](https://bria.ai/), is based on diffusion techniques and was trained for this task using a carefully curated dataset that we are now making available for research and evaluation purposes.
+Welcome to the Eraser Inpainting Benchmark Dataset! This dataset is designed for evaluating inpainting models, especially those specialized in object removal. The Eraser model, developed by [Bria](https://bria.ai/), is based on advanced diffusion techniques and trained specifically for object removal tasks. It has been rigorously tested on a carefully curated benchmark, which we are now 
+making available for research and evaluation purposes.
 
-The model is open for research (free) and available for purchase.
 
 
+The eraser model and pipeline are open for academic research (free of charge) and available for purchase for other applications.
 
 
 ## Dataset Composition
