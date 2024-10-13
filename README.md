@@ -49,7 +49,7 @@ Example of benchmark results:
 ## About the pipline 
 The Eraser pipeline by Bria is a robust, modular framework specifically designed for seamless object removal in images. It combines Bria’s advanced foundation models, ControlNet guidance, and LoRA for precise customization, ensuring high-quality results that align with users’ expectations. By incorporating low-frequency details and global context from the image, the pipeline maintains visual coherence and natural backgrounds, even in complex scenes. Designed with flexibility in mind, the Eraser pipeline can adapt to various use cases, from simple object removal to intricate background adjustments, all while upholding ethical data practices through legally sourced training sets.
 
-For a deeper look into the Eraser Pipeline, including insights into the technology, customization options, and unique features that make Bria's Eraser stand out, read our detailed Medium article:[Bria’s Eraser: A Groundbreaking Tool for Object Removal in Images
+For a deeper look into the Eraser Pipeline, including insights into the technology, customization options, and unique features that make Bria's Eraser stand out, read our detailed Medium article: [Bria’s Eraser: A Groundbreaking Tool for Object Removal in Images
 ](https://medium.com/@efrat_37973/brias-eraser-a-groundbreaking-tool-for-object-removal-in-images-787e7fcacf63)
 ## How to Use
 
