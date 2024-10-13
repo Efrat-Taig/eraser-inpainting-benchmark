@@ -36,14 +36,13 @@ The benchmark dataset is organized into a main directory called [eraser_benchmar
 
 ## About the results
 
-The benchmark results are stored in the [eraser_benchmark_results](https://drive.google.com/drive/folders/1d6WDODdNHbV_q9ti3uLOpl1jWRafaGuK?usp=drive_link) folder, with each output saved as a single Demo Image. This demo image combines the original color image, the mask, and the processed result from the eraser API into a single, horizontally concatenated file. Each demo image is named after its corresponding mask file, followed by _demo, making it easy to identify and associate with the original data. This organized structure allows for quick visual comparison of the input and output, providing an intuitive way to validate the results.
 
 The benchmark results are stored in the [eraser_benchmark_results](https://drive.google.com/drive/folders/1d6WDODdNHbV_q9ti3uLOpl1jWRafaGuK?usp=drive_link) folder, where each output combines the original image, mask, and processed result from the Eraser API into a single, concatenated file. Each demo image is named after its corresponding mask file for easy identification. The code to generate these images is included in the `run_eraser_on_benchmark.py` function. This setup enables quick and clear comparison of inputs and outputs.
 
 
-Example of benchmark results
-<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_res.png" alt="Example of benchmark results
-" width="600"/>
+Example of benchmark results:
+
+<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_res.png" >
 
 
 
