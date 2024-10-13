@@ -51,7 +51,7 @@ Example of benchmark results:
 **Evaluate Bria eraser pipline on a single image (via code)**:  
 
 To evaluate the Bria pipeline on a *single* image, use the provided Python script [run_eraser.py](https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/run_eraser.py). Begin by specifying the paths to the color image and its corresponding mask. The script converts both files to Base64 format and sends them to the Bria eraser API. After processing, the API returns a URL containing the result image. We than download the processed image and saves it to a specified output path. Note to ensure that the API token and URL are correctly set in the script to authenticate access. Upon successful execution, the processed image will be stored in the `data_res` folder under the specified filename, providing a straightforward way to test the Bria eraser functionality on an individual image and mask pair.
-**[Get TOKEN from here](https://bria.ai/api)**: 
+**[Get TOKEN from here](https://bria.ai/api)**
 
 **Evaluate Bria eraser pipline on a single image (via API)**:  
 [API documentation for Bria eraser ](https://bria-ai-api-docs.redoc.ly/tag/Image-Modifications/#operation/eraser)
