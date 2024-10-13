@@ -93,7 +93,7 @@ For industry users, the model is source available with a platform fee. You can p
 
 For more information about Bria, its business model, and its free access approach for academia, read this blog: [Bridging the Gap from Academic AI to Ethical Business Models](https://medium.com/@efrat_37973/bridging-the-gap-from-academic-ai-to-ethical-business-models-89327517b940).
 
-The images included in this benchmark are provided exclusively for research purposes. They are intended to support the development, evaluation, and analysis of algorithms within academic and non-commercial research contexts. Any commercial use of these images, including but not limited to reproduction, distribution, or incorporation into commercial products or services, is strictly prohibited. This restriction ensures that the dataset remains dedicated to advancing research and responsible innovation in the field.
+The images included in this benchmark are provided exclusively for research purposes. They are intended to support the development, evaluation, and analysis of algorithms within academic and non-commercial research contexts. Any commercial use of these images, including but not limited to reproduction, distribution, or incorporation into commercial products or services, is strictly prohibited. 
 
 ## Contributions
 
