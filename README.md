@@ -17,7 +17,8 @@ The dataset consists of **100 images and their corresponding masks**, carefully 
 
 
 Example of Image with Corresponding Mask from the Eraser Benchmark Dataset
-<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_sample_im.png" alt="Example Image with Mask" width="600"/>
+<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_sample_im.png">
+
 
 
 
