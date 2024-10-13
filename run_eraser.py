@@ -1,4 +1,12 @@
 
+"""
+This script demonstrates how to use the Bria eraser API to process a single image and mask pair. 
+It first converts both the color image and mask to Base64 format, sends them to the API, and then
+saves the processed result locally. This script is useful for testing the API's functionality on 
+specific examples, allowing for quick evaluation of the image editing process. Make sure to replace 
+'TOKEN' with a valid API token and update the image and mask paths as needed.
+"""
+
 
 import requests
 import base64
@@ -8,13 +16,6 @@ def convert_image_to_base64(image_path):
     with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode('utf-8')
 
-"""
-This script demonstrates how to use the Bria eraser API to process a single image and mask pair. 
-It first converts both the color image and mask to Base64 format, sends them to the API, and then
-saves the processed result locally. This script is useful for testing the API's functionality on 
-specific examples, allowing for quick evaluation of the image editing process. Make sure to replace 
-'TOKEN' with a valid API token and update the image and mask paths as needed.
-"""
 
 url = "https://engine.prod.bria-api.com/v1/eraser"
 
@@ -34,7 +35,7 @@ payload = {
 
 headers = {
   "Content-Type": "application/json",
-  "api_token": "TOKEN"
+  "api_token": "TOKEN" # replace TOKEN here
 }
 
 response = requests.post(url, json=payload, headers=headers)
