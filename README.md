@@ -71,26 +71,27 @@ To evaluate the Bria pipeline on a *single* image, use the provided Python scrip
 
 To run the benchmark evaluation, ensure that the dataset is organized in the `benchmark_folders` directory, where each color image and its corresponding masks are stored in individual subfolders. Before starting, set the API endpoint and API token within the code, as these are required for accessing the eraser API. Once configured, run the [run_eraser_on_benchmark.py](https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/run_eraser_on_benchmark.py) script, which will process each image-mask pair in the dataset. The results will be saved in the `benchmark_res` folder, with each demo image showing the original color image, mask, and processed result side-by-side. This setup allows you to evaluate the effectiveness of the eraser model on the dataset and quickly review the output for each test case.
 
-## Bria’s Inpainting Products
+## Bria’s Other Inpainting Products
 
 At Bria, we offer two main products:
-1. **Inpainting Model**: Bria Demo inpainting foundation model  [Hugging Face](https://huggingface.co/spaces/briaai/BRIA-2.3-ControlNet-Erase)
-   [Try the model here: XXXX]
-1. **Inpainting Model**: Bria inpainting foundation model  [Hugging Face](https://huggingface.co/briaai/BRIA-2.3-Inpainting)
-   [Try the model here: XXXX]
-2. **Complete Pipeline**: In addition to the model, we provide a full inpainting pipeline accessible via **API**. This broader solution ensures that Bria’s clients not only get the foundation model but also the complete inpainting workflow for their use cases.  
-   [Full pipeline documentation: XXXX]  
-   [API demo: XXXX]
+1. **Inpainting Model**: Bria inpainting foundation model (weights and code) from [Hugging Face](https://huggingface.co/spaces/briaai)
+   [Get the model here](https://huggingface.co/briaai/BRIA-2.3-Inpainting)
+   
+1. **Inpainting Model**: Bria Demo for inpainting foundation model  from [Hugging Face](https://huggingface.co/spaces/briaai)
+   [Try the model here](https://huggingface.co/spaces/briaai/BRIA-2.3-Inpainting)
+   
 
 ## Citation
 
-When using the **Eraser Inpainting Benchmark Dataset**, please cite the [XXXXX](XXXX)
+When using the **Eraser Inpainting Benchmark Dataset**, please cite the [BRIA.AI]([XXXX](https://bria.ai/))
 
 ## License
 
 Bria’s inpainting model is open source for academia. Academics can download the model, weights, and full training code from [Hugging Face](https://huggingface.co/briaai) or request access through this [link](https://docs.google.com/forms/d/e/1FAIpQLSe-E1r-QoBmsAZbJ5MJKB76wGnk6bUn2kBq5imPQVVJviv1Kg/viewform).
 
 For industry users, the model is source available with a platform fee. You can purchase access to the full platform, which includes the inpainting model, weights, and training code, by contacting Bria through this [link](https://bria.ai/contact-us/) or request access via [Hugging Face](https://huggingface.co/briaai).
+
+For more information about Bria, its business model, and its academic monthly access approach, read this blog: [Bridging the Gap from Academic AI to Ethical Business Models](https://medium.com/@efrat_37973/bridging-the-gap-from-academic-ai-to-ethical-business-models-89327517b940).
 
 The images included in this benchmark are provided exclusively for research purposes. They are intended to support the development, evaluation, and analysis of algorithms within academic and non-commercial research contexts. Any commercial use of these images, including but not limited to reproduction, distribution, or incorporation into commercial products or services, is strictly prohibited. This restriction ensures that the dataset remains dedicated to advancing research and responsible innovation in the field.
 
