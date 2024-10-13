@@ -7,6 +7,8 @@ making available for research and evaluation purposes.
 
 The eraser model and pipeline are open for academic research (free of charge) and available for purchase for other applications.
 
+For an in-depth overview of the Eraser pipeline, benchmarks, and key features, check out our Medium article [here](https://medium.com/@efrat_37973/brias-eraser-a-groundbreaking-tool-for-object-removal-in-images-787e7fcacf63).
+
 
 ## Dataset Composition
 The dataset consists of **100 images and their corresponding masks**, carefully curated to serve as a benchmark for object removal tasks. These images were sourced from three main areas:
@@ -18,7 +20,6 @@ The dataset consists of **100 images and their corresponding masks**, carefully 
 
 Example of Image with Corresponding Mask from the Eraser Benchmark Dataset
 <img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_sample_im.png">
-
 
 
 
@@ -45,7 +46,11 @@ Example of benchmark results:
 <img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_results.png" >
 
 
+## About the pipline 
+The Eraser pipeline by Bria is a robust, modular framework specifically designed for seamless object removal in images. It combines Bria’s advanced foundation models, ControlNet guidance, and LoRA for precise customization, ensuring high-quality results that align with users’ expectations. By incorporating low-frequency details and global context from the image, the pipeline maintains visual coherence and natural backgrounds, even in complex scenes. Designed with flexibility in mind, the Eraser pipeline can adapt to various use cases, from simple object removal to intricate background adjustments, all while upholding ethical data practices through legally sourced training sets.
 
+For a deeper look into the Eraser Pipeline, including insights into the technology, customization options, and unique features that make Bria's Eraser stand out, read our detailed Medium article:[Bria’s Eraser: A Groundbreaking Tool for Object Removal in Images
+](https://medium.com/@efrat_37973/brias-eraser-a-groundbreaking-tool-for-object-removal-in-images-787e7fcacf63)
 ## How to Use
 
 **Evaluate Bria eraser pipline on a single image (via code)**:  
@@ -82,7 +87,7 @@ At Bria, we offer two main products:
    
 1. **Inpainting Model**: Bria Demo for inpainting foundation model  from [Hugging Face](https://huggingface.co/spaces/briaai)
    [Try the model here](https://huggingface.co/spaces/briaai/BRIA-2.3-Inpainting)
-   
+
 
 ## Citation
 
