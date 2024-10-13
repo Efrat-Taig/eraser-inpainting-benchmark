@@ -42,18 +42,18 @@ The benchmark results are stored in the [eraser_benchmark_results](https://drive
 
 Example of benchmark results:
 
-<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_res.png" >
+<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_results.png" >
 
 
 
 ## How to Use
 
-**Evaluate your model**:  
-   Run your inpainting models on the images and compare results. We recommend trying [Bria’s inpainting models](https://huggingface.co/briaai) available on [Hugging Face](https://huggingface.co/briaai), particularly the **inpainting model**.
-
 **Evaluate Bria eraser pipline on a single image (via code)**:  
 
-To evaluate the Bria pipeline on a single image, use the provided Python script. Begin by specifying the paths to the color image and its corresponding mask. The script converts both files to Base64 format and sends them to the Bria eraser API. After processing, the API returns a URL containing the result image. The script then downloads the processed image and saves it to a specified output path, allowing for easy review. Ensure that the API token and URL are correctly set in the script to authenticate access. Upon successful execution, the processed image will be stored in the `data_res` folder under the specified filename, providing a straightforward way to test the Bria eraser functionality on an individual image and mask pair.
+To evaluate the Bria pipeline on a *single* image, use the provided Python script [run_eraser.py](https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/run_eraser.py). Begin by specifying the paths to the color image and its corresponding mask. The script converts both files to Base64 format and sends them to the Bria eraser API. After processing, the API returns a URL containing the result image. We than download the processed image and saves it to a specified output path. Note to ensure that the API token and URL are correctly set in the script to authenticate access. Upon successful execution, the processed image will be stored in the `data_res` folder under the specified filename, providing a straightforward way to test the Bria eraser functionality on an individual image and mask pair.
+
+**Evaluate Bria eraser pipline on a single image (via API)**:  
+[API documentation for Bria eraser ](https://bria-ai-api-docs.redoc.ly/tag/Image-Modifications/#operation/eraser)
 
 **Evaluate Bria eraser pipline on a single image (via space in HF #1)**:  
 [demo on Hugging Face](https://huggingface.co/spaces/briaai/BRIA-Eraser-API)
@@ -64,10 +64,11 @@ To evaluate the Bria pipeline on a single image, use the provided Python script.
 **Evaluate Bria eraser pipline on a single image (via ComfyUI #1)**:  
 [Via ComfyUI](https://github.com/Bria-AI/ComfyUI-BRIA-API)
 
-
+**Evaluate other model**:  
+   Run your inpainting models on the images and compare results. We recommend trying [Bria’s inpainting models](https://huggingface.co/briaai) available on [Hugging Face](https://huggingface.co/briaai), particularly the **inpainting model**.
 **Evaluate Bria eraser pipline on benchmark**:  
 
-To run the benchmark evaluation, ensure that the dataset is organized in the `benchmark_folders` directory, where each color image and its corresponding masks are stored in individual subfolders. Before starting, set the API endpoint and API token within the code, as these are required for accessing the eraser API. Once configured, run the `run_benchmark` function, which will process each image-mask pair in the dataset. The results will be saved in the `benchmark_res` folder, with each demo image showing the original color image, mask, and processed result side-by-side. This setup allows you to evaluate the effectiveness of the eraser model on the dataset and quickly review the output for each test case.
+To run the benchmark evaluation, ensure that the dataset is organized in the `benchmark_folders` directory, where each color image and its corresponding masks are stored in individual subfolders. Before starting, set the API endpoint and API token within the code, as these are required for accessing the eraser API. Once configured, run the [run_eraser_on_benchmark.py](https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/run_eraser_on_benchmark.py) script, which will process each image-mask pair in the dataset. The results will be saved in the `benchmark_res` folder, with each demo image showing the original color image, mask, and processed result side-by-side. This setup allows you to evaluate the effectiveness of the eraser model on the dataset and quickly review the output for each test case.
 
 ## Bria’s Inpainting Products
 
