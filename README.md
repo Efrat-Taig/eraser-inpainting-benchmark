@@ -11,7 +11,7 @@ The eraser model and pipeline are open for academic research (free of charge) an
 ## Dataset Composition
 The dataset consists of **100 images and their corresponding masks**, carefully curated to serve as a benchmark for object removal tasks. These images were sourced from three main areas:
 
-- **Generated Images**:  Created using Bria's generative platform during earlier experiments with object removal scenarios. You can generate similar images through Bria’s platform [here](https://platform.bria.ai/apps/text-to-image).
+- **Generated Images**:  Created using Bria's generative platform. You can generate similar images through Bria’s platform [here](https://platform.bria.ai/apps/text-to-image).
 - **Bria Repository Images**: Proprietary images from Bria, representing real-world use cases for object removal.
 - **Academic Images**: Sourced from academic projects such as the  [LAMA project](https://github.com/advimman/lama/tree/main) and [Inpaint Anything](https://github.com/geekyutao/Inpaint-Anything).
 
@@ -30,16 +30,19 @@ The dataset is available for download from Google Drive. You can access it using
 [**Download Eraser Inpainting Benchmark Dataset**](https://drive.google.com/drive/folders/1f_t6yUSTz8lxf6eO2hjWAs7O-vEFWEPZ?usp=sharing)
 
 ## About the Dataset
-The benchmark dataset is organized into a main directory called eraser_benchmark_folders. Inside this directory, each color image has its own subfolder named after the image. Each subfolder contains the color image itself along with all associated mask files. This structure ensures that each image and its corresponding masks are grouped together for easy access and processing.
+The benchmark dataset is organized into a main directory called [eraser_benchmark_folders](https://drive.google.com/drive/folders/1f_t6yUSTz8lxf6eO2hjWAs7O-vEFWEPZ?usp=drive_link). Inside this directory, each color image has its own subfolder named after the image. Each subfolder contains the color image itself along with all associated mask files. This structure ensures that each image and its corresponding masks are grouped together for easy access and processing.
 
 
 ## About the results
 
-The benchmark results are stored in the eraser_benchmark_results folder, with each output saved as a single Demo Image. This demo image combines the original color image, the mask, and the processed result from the eraser API into a single, horizontally concatenated file. Each demo image is named after its corresponding mask file, followed by _demo, making it easy to identify and associate with the original data. This organized structure allows for quick visual comparison of the input and output, providing an intuitive way to validate the results.
+The benchmark results are stored in the [eraser_benchmark_results](https://drive.google.com/drive/folders/1d6WDODdNHbV_q9ti3uLOpl1jWRafaGuK?usp=drive_link) folder, with each output saved as a single Demo Image. This demo image combines the original color image, the mask, and the processed result from the eraser API into a single, horizontally concatenated file. Each demo image is named after its corresponding mask file, followed by _demo, making it easy to identify and associate with the original data. This organized structure allows for quick visual comparison of the input and output, providing an intuitive way to validate the results.
+
+The benchmark results are stored in the [eraser_benchmark_results](https://drive.google.com/drive/folders/1d6WDODdNHbV_q9ti3uLOpl1jWRafaGuK?usp=drive_link) folder, where each output combines the original image, mask, and processed result from the Eraser API into a single, concatenated file. Each demo image is named after its corresponding mask file for easy identification. The code to generate these images is included in the `run_eraser_on_benchmark.py` function. This setup enables quick and clear comparison of inputs and outputs.
 
 
-
-
+Example of benchmark results
+<img src="https://github.com/Efrat-Taig/eraser-inpainting-benchmark/blob/main/eraser_bencmark_res.png" alt="Example of benchmark results
+" width="600"/>
 
 
 
